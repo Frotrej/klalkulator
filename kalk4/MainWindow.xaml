@@ -5,24 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:kalk4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="230" Width="225"
-        ResizeMode="NoResize">
+        Title="MainWindow" Height="219" Width="212"
+        ResizeMode="NoResize" SizeToContent="WidthAndHeight"
+        Icon="./Resources/dickbut.ico">
     <Grid>
-        <Button x:Name="three" Content="3" HorizontalAlignment="Left" Margin="90,152,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="three_Click"/>
-        <Button x:Name="two" Content="2" HorizontalAlignment="Left" Margin="50,152,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="two_Click"/>
-        <Button x:Name="one" Content="1" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="one_Click"/>
-        <Button x:Name="six" Content="6" HorizontalAlignment="Left" Margin="90,112,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="six_Click"/>
-        <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Margin="90,72,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="nine_Click"/>
-        <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Margin="50,72,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="eight_Click"/>
-        <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="seven_Click"/>
-        <Button x:Name="four" Content="4" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="four_Click" Background="#FFC1D313"/>
-        <Button x:Name="five" Content="5" HorizontalAlignment="Left" Margin="50,112,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="five_Click"/>
-        <Button x:Name="addition" Content="+" HorizontalAlignment="Left" Margin="130,112,0,0" VerticalAlignment="Top" Width="35" Height="75" RenderTransformOrigin="2.629,3.714" Click="addition_Click"/>
-        <Button x:Name="subtraction" Content="-" HorizontalAlignment="Left" Margin="130,72,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="subtraction_Click"/>
-        <Button x:Name="multiplication" Content="*" HorizontalAlignment="Left" Margin="170,72,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="multiplication_Click"/>
-        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Margin="170,112,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="division_Click"/>
-        <Button x:Name="equal" Content="=" HorizontalAlignment="Left" Margin="170,152,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="equal_Click"/>
-        <TextBox x:Name="result" HorizontalAlignment="Left" Height="36" Margin="10,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="195" TextChanged="result_TextChanged"/>
+        <Button x:Name="one" Content="1" HorizontalAlignment="Left" Margin="0,147,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="one_Click" />
+        <Button x:Name="two" Content="2" HorizontalAlignment="Left" Margin="40,147,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="two_Click"/>
+        <Button x:Name="three" Content="3" HorizontalAlignment="Left" Margin="80,147,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="three_Click"/>
+        <Button x:Name="four" Content="4" HorizontalAlignment="Left" Margin="0,107,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="four_Click" Background="#FFDDDDDD"/>
+        <Button x:Name="five" Content="5" HorizontalAlignment="Left" Margin="40,107,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="five_Click"/>
+        <Button x:Name="six" Content="6" HorizontalAlignment="Left" Margin="80,107,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="six_Click"/>
+        <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Margin="0,67,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="seven_Click"/>
+        <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Margin="40,67,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="eight_Click"/>
+        <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Margin="80,67,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="nine_Click"/>
+
+        <Button x:Name="addition" Content="+" HorizontalAlignment="Left" Margin="120,107,0,0" VerticalAlignment="Top" Width="35" Height="75" RenderTransformOrigin="2.629,3.714" Click="addition_Click"/>
+        <Button x:Name="subtraction" Content="-" HorizontalAlignment="Left" Margin="120,67,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="subtraction_Click"/>
+        <Button x:Name="multiplication" Content="*" HorizontalAlignment="Left" Margin="160,67,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="multiplication_Click"/>
+        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Margin="160,107,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="division_Click"/>
+        <Button x:Name="equal" Content="=" HorizontalAlignment="Left" Margin="160,147,0,0" VerticalAlignment="Top" Width="35" Height="35" RenderTransformOrigin="2.629,3.714" Click="equal_Click"/>
+
+        <TextBox x:Name="result" TextAlignment="Right" HorizontalAlignment="Left" Height="21" Margin="0,32,0,0" Text="" VerticalAlignment="Top" Width="195" MaxLines="1" />
+        <TextBox x:Name="result2" TextAlignment="Right" HorizontalAlignment="Left" Height="21" Margin="0,9,0,0" Text="0" VerticalAlignment="Top" Width="195" MaxLines="1"/>
 
     </Grid>
 </Window>
